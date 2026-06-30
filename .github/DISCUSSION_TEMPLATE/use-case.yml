@@ -1,0 +1,25 @@
+title: "[Use case] "
+labels:
+  - use-case
+body:
+  - type: textarea
+    id: use_case
+    attributes:
+      label: Use case
+      description: What workflow do you want to automate or extend with ONEScript?
+    validations:
+      required: true
+  - type: textarea
+    id: current_process
+    attributes:
+      label: Current process
+      description: How do you handle this workflow today?
+    validations:
+      required: false
+  - type: textarea
+    id: desired_outcome
+    attributes:
+      label: Desired outcome
+      description: What should ONEScript help your team achieve?
+    validations:
+      required: false

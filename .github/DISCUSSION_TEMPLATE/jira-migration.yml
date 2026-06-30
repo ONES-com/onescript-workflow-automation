@@ -1,0 +1,25 @@
+title: "[Jira migration] "
+labels:
+  - jira-migration
+body:
+  - type: textarea
+    id: source
+    attributes:
+      label: Source capability
+      description: Describe the Jira ScriptRunner, JMWE, or Power Scripts logic you want to map to ONEScript.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected ONES workflow
+      description: Describe the ONES workflow you want to automate or extend.
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Constraints or questions
+      description: Include trigger timing, fields, status logic, external calls, or unsupported areas you are unsure about.
+    validations:
+      required: false

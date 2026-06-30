@@ -1,0 +1,52 @@
+name: Bug report
+description: Report a reproducible ONEScript problem.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for reproducible ONEScript problems. For general questions, use GitHub Discussions.
+  - type: input
+    id: package_version
+    attributes:
+      label: ONEScript package version
+      description: "Example: v1.0.8"
+    validations:
+      required: true
+  - type: dropdown
+    id: deployment
+    attributes:
+      label: Deployment type
+      options:
+        - Private / On-Premises
+        - SaaS
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the trigger type, binding or Timer Rule, and the smallest script or configuration that reproduces the issue.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Include Execute Log, Event Log, or screenshots if relevant. Remove tokens, secrets, and customer data.
+    validations:
+      required: false

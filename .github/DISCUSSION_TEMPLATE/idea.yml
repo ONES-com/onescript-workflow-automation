@@ -1,0 +1,18 @@
+title: "[Idea] "
+labels:
+  - idea
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: Share your suggestion for ONEScript.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: Explain the workflow, migration, or administration need behind this idea.
+    validations:
+      required: false

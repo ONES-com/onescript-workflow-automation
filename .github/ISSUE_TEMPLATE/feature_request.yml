@@ -1,0 +1,31 @@
+name: Feature request
+description: Request a specific ONEScript capability.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for specific feature requests. For open-ended ideas or migration planning, use GitHub Discussions.
+  - type: textarea
+    id: scenario
+    attributes:
+      label: Workflow or migration scenario
+      description: Describe the ONES workflow or Jira ScriptRunner/JMWE/Power Scripts logic you want ONEScript to support.
+    validations:
+      required: true
+  - type: textarea
+    id: current_gap
+    attributes:
+      label: Current gap
+      description: What is difficult or unavailable today?
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected capability
+      description: What would a good solution look like?
+    validations:
+      required: false

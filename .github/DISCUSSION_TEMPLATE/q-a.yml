@@ -1,0 +1,18 @@
+title: "[Q&A] "
+labels:
+  - question
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to understand about ONEScript?
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Share your deployment type, workflow, or script context if relevant.
+    validations:
+      required: false
