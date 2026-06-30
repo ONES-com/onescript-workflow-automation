@@ -18,6 +18,12 @@ Use this repository to download ONEScript packages, find the official documentat
 
 Download the latest ONEScript package from [Releases](https://github.com/ONES-com/onescript-workflow-automation/releases).
 
+For the shortest path, use the latest release links:
+
+- [Latest release](https://github.com/ONES-com/onescript-workflow-automation/releases/latest)
+- Latest ONEScript plugin package: `https://github.com/ONES-com/onescript-workflow-automation/releases/latest/download/onescript-plugin.zip`
+- Latest AI Skill package: `https://github.com/ONES-com/onescript-workflow-automation/releases/latest/download/onescript-ai-skill.zip`
+
 The package includes:
 
 - ONEScript plugin package
