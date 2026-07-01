@@ -4,15 +4,16 @@ ONEScript is the scripting layer for ONES. It helps administrators, power users,
 
 Use this repository to download ONEScript packages, find the official documentation, and share feedback while ONEScript is in early preview.
 
-## What ONEScript Helps You Do
+## What You Can Automate with ONEScript
 
-- React to work item changes and workflow actions
-- Run scheduled jobs with Timer Rules
-- Validate or block changes with `taskPreAction` scripts
-- Update fields, add comments, and query ONES data
-- Expose scripts as authenticated REST endpoints
-- Migrate Jira automation logic from ScriptRunner, JMWE, or Power Scripts to ONES
-- Use an AI assistant to help draft and validate scripts
+Use ONEScript when no-code automation is not enough for your workflow logic.
+
+- Update fields, comments, and related data based on work item changes
+- Enforce workflow rules before or after users make changes
+- Run scheduled jobs and data queries across ONES
+- Connect ONES with external systems through REST endpoints
+- Migrate Jira ScriptRunner, JMWE, or Power Scripts automation logic to ONES
+- Draft scripts with an AI assistant, then validate and test them in ONEScript
 
 ## Download ONEScript
 
