@@ -3,7 +3,6 @@
 ## Downloads
 
 - `onescript-plugin.opk` — ONEScript plugin package
-- `onescript-ai-skill.zip` — AI Skill (`Skill.md`)
 - `SHA256SUMS.txt` — checksums for release assets
 
 Use stable asset file names across releases so the README can link to the latest downloads directly.

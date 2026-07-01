@@ -12,7 +12,7 @@ Use this repository to download ONEScript packages, find the official documentat
 - Update fields, add comments, and query ONES data
 - Expose scripts as authenticated REST endpoints
 - Migrate Jira automation logic from ScriptRunner, JMWE, or Power Scripts to ONES
-- Use the included AI Skill to draft and validate scripts
+- Use an AI assistant to help draft and validate scripts
 
 ## Download ONEScript
 
@@ -22,12 +22,8 @@ For the shortest path, use the latest release links:
 
 - [Latest release](https://github.com/ONES-com/onescript-workflow-automation/releases/latest)
 - Latest ONEScript plugin package: `https://github.com/ONES-com/onescript-workflow-automation/releases/latest/download/onescript-plugin.opk`
-- Latest AI Skill package: `https://github.com/ONES-com/onescript-workflow-automation/releases/latest/download/onescript-ai-skill.zip`
 
-The package includes:
-
-- ONEScript plugin package
-- AI Skill (`Skill.md`) for ChatGPT, Claude, Gemini, or other assistants
+The release includes the ONEScript plugin package for installation in ONES.
 
 ## Start Here
 
