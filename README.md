@@ -21,7 +21,7 @@ Download the latest ONEScript package from [Releases](https://github.com/ONES-co
 For the shortest path, use the latest release links:
 
 - [Latest release](https://github.com/ONES-com/onescript-workflow-automation/releases/latest)
-- Latest ONEScript plugin package: `https://github.com/ONES-com/onescript-workflow-automation/releases/latest/download/onescript-plugin.zip`
+- Latest ONEScript plugin package: `https://github.com/ONES-com/onescript-workflow-automation/releases/latest/download/onescript-plugin.opk`
 - Latest AI Skill package: `https://github.com/ONES-com/onescript-workflow-automation/releases/latest/download/onescript-ai-skill.zip`
 
 The package includes:

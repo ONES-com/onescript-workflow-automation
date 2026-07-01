@@ -2,7 +2,7 @@
 
 ## Downloads
 
-- `onescript-plugin.zip` — ONEScript plugin package
+- `onescript-plugin.opk` — ONEScript plugin package
 - `onescript-ai-skill.zip` — AI Skill (`Skill.md`)
 - `SHA256SUMS.txt` — checksums for release assets
 
