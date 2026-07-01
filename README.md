@@ -50,6 +50,6 @@ Report reproducible issues, installation problems, documentation fixes, and pack
 ## Useful Links
 
 - [ONEScript documentation](https://docs.ones.com/onescript)
-- [ONES Scripting page](https://ones.com/features/scripting)
+- [ONEScript introduction](https://ones.com/features/scripting)
 - [ONES Developer docs](https://docs.ones.com/developer/guide/getting-started/)
 - [ONES.com](https://ones.com/)

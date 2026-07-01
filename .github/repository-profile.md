@@ -8,7 +8,7 @@ ONEScript is the scripting layer for ONES, helping teams automate and extend wor
 
 ## Website
 
-https://docs.ones.com/onescript
+https://ones.com/features/scripting
 
 ## Topics
 
@@ -20,6 +20,8 @@ scripting
 jira
 jira-migration
 scriptrunner
+automation
+workflow
 developer-tools
 on-premises
 enterprise-software
