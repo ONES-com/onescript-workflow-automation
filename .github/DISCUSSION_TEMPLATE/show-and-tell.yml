@@ -1,0 +1,16 @@
+title: "[Show and tell] "
+body:
+  - type: textarea
+    id: project
+    attributes:
+      label: What did you build or try?
+      description: Share the ONEScript workflow, automation scenario, or migration experiment you want to show.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Tell us what problem it solves, what worked, and what you would improve.
+    validations:
+      required: false

@@ -12,7 +12,7 @@ body:
     id: package_version
     attributes:
       label: ONEScript package version
-      description: "Example: v1.0.8"
+      description: "Example: v1.0.3"
     validations:
       required: true
   - type: dropdown
@@ -21,7 +21,7 @@ body:
       label: Deployment type
       options:
         - Private / On-Premises
-        - SaaS
+        - SaaS / coming soon
         - Not sure
     validations:
       required: true

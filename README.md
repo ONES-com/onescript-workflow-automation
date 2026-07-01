@@ -34,6 +34,7 @@ The release includes the ONEScript plugin package for installation in ONES.
 - [Reference](https://docs.ones.com/onescript/reference)
 - [Migrate Jira scripts to ONES](https://docs.ones.com/onescript/migration)
 - [Cookbook and resources](https://docs.ones.com/onescript/resources)
+- [Changelog](./changelog)
 
 ## Availability
 

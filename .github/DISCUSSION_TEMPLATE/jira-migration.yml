@@ -1,6 +1,4 @@
 title: "[Jira migration] "
-labels:
-  - jira-migration
 body:
   - type: textarea
     id: source

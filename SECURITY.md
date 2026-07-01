@@ -1,8 +1,12 @@
 # Security
 
-Please do not report security vulnerabilities through public GitHub Issues or Discussions.
+We welcome reports that help keep ONEScript safe and reliable.
 
-If you believe you have found a security issue related to ONEScript, contact the ONES team through your official support channel or account representative, and include:
+For general questions, reproducible product behavior, and documentation feedback, GitHub Issues and Discussions are appropriate.
+
+If your report involves a possible security vulnerability, sensitive data, access control, secrets, or customer environment details, please contact the ONES team privately at support@ones.com or through your official support channel. This helps us review the issue without exposing information that should not be public.
+
+When contacting support, include:
 
 - ONES deployment type and version
 - ONEScript package version
@@ -10,4 +14,4 @@ If you believe you have found a security issue related to ONEScript, contact the
 - Steps to reproduce, if available
 - Relevant logs or screenshots with secrets removed
 
-Do not include passwords, tokens, secret variables, private keys, or customer data in public reports.
+Please avoid posting passwords, tokens, secret variables, private keys, or customer data in public GitHub Issues or Discussions.
