@@ -22,7 +22,7 @@ Download the latest ONEScript package from [Releases](https://github.com/ONES-co
 For the shortest path, use the release links:
 
 - [Latest release](https://github.com/ONES-com/onescript-workflow-automation/releases/latest)
-- ONEScript v1.0.4 plugin package: `https://github.com/ONES-com/onescript-workflow-automation/releases/download/v1.0.4/onescript-plugin-v1.0.4.opk`
+- ONEScript v1.0.4 plugin package: `https://github.com/ONES-com/onescript-workflow-automation/releases/download/v1.0.4/ONEScript-1.0.4.opk`
 
 The release includes the ONEScript plugin package for installation in ONES.
 
