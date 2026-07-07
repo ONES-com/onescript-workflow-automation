@@ -19,10 +19,10 @@ Use ONEScript when no-code automation is not enough for your workflow logic.
 
 Download the latest ONEScript package from [Releases](https://github.com/ONES-com/onescript-workflow-automation/releases).
 
-For the shortest path, use the latest release links:
+For the shortest path, use the release links:
 
 - [Latest release](https://github.com/ONES-com/onescript-workflow-automation/releases/latest)
-- Latest ONEScript plugin package: `https://github.com/ONES-com/onescript-workflow-automation/releases/latest/download/onescript-plugin.opk`
+- ONEScript v1.0.4 plugin package: `https://github.com/ONES-com/onescript-workflow-automation/releases/download/v1.0.4/onescript-plugin.opk`
 
 The release includes the ONEScript plugin package for installation in ONES.
 
