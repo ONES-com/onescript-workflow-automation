@@ -15,6 +15,7 @@ Use ONEScript when no-code automation is not enough for your workflow logic.
 - Migrate Jira ScriptRunner, JMWE, or Power Scripts automation logic to ONES
 - Draft scripts with an AI assistant, then validate and test them in ONEScript
 - Search issues semantically, send ONES email notifications, and build scheduled follow-up automations
+- Validate workflow transitions against registered, estimated, and remaining work
 
 ## Download ONEScript
 
@@ -23,29 +24,30 @@ Download the latest ONEScript package from [Releases](https://github.com/ONES-co
 For the shortest path, use the release links:
 
 - [Latest release](https://github.com/ONES-com/onescript-workflow-automation/releases/latest)
-- ONEScript v1.1.0 on-premises package: [`ONEScript-1.1.0-on-prem.opk`](https://github.com/ONES-com/onescript-workflow-automation/releases/download/v1.1.0/ONEScript-1.1.0-on-prem.opk)
-- [ONEScript v1.1.0 release notes](https://github.com/ONES-com/onescript-workflow-automation/releases/tag/v1.1.0)
+- ONEScript v1.1.1 on-premises package: [`ONEScript-1.1.1-on-prem.opk`](https://github.com/ONES-com/onescript-workflow-automation/releases/download/v1.1.1/ONEScript-1.1.1-on-prem.opk)
+- [ONEScript v1.1.1 release notes](https://github.com/ONES-com/onescript-workflow-automation/releases/tag/v1.1.1)
 
 Install the package through Configuration Center > App management > Uploaded apps. GitHub may also show auto-generated source archives; to install ONEScript, download the `.opk` package.
 
-## What's New in v1.1.0
+## What's New in v1.1.1
 
-ONEScript v1.1.0 consolidates the improvements since v1.0.4 into a Private / On-Premises release.
+ONEScript v1.1.1 adds complete worklog support for synchronous workflow guards and advanced record automation.
 
-- Adds `issue.search(...)` semantic issue queries with `select` field projection for event, timer, and console triggers
-- Adds `api.notify(...)` email notifications through the official ONES notification channel
-- Supports scheduled semantic queries, such as timer-based overdue-issue follow-ups
-- Adds `issue.hierarchy()`, hierarchy and date guards, `newValue`, and `all` / `any` / `none` status predicates
-- Moves the ONEScript workbench into the system sidebar and gates access through the ONEScript Workbench Access permission
-- Improves full-screen mode, log and output viewers, execution-pulse display, and zh-CN / ja / en localization
+- Adds `issue.worklog` for taskPreAction checks against registered, estimated, and remaining hours
+- Adds fixed-precision estimate comparisons and platform estimated/remaining roll-ups
+- Shares one aggregate read across matching guards while unrelated guards add no request
+- Fails closed when required worklog data is unavailable instead of treating it as zero
+- Formally supports explicitly separated Simple and Summary worklog record helpers
+- Aligns Dry Run, autocomplete, Guide, AI Skill, and the user manual with the runtime contract
 
 ## Upgrade Notes
 
-After upgrading to v1.1.0:
+After upgrading to v1.1.1:
 
-- Grant workbench access in the app's Permission tab before members open ONEScript.
-- Open ONEScript from the left sidebar instead of the plugin configuration tab.
-- Review `taskPreAction` scripts: `issue.*` now reads the pre-action state, so incoming values should use `.newValue` or `changedTo(...)`.
+- Existing v1.1.0 scripts do not require migration.
+- Use `issue.worklog` only in `taskPreAction`.
+- Keep record writes in write-capable L1 triggers.
+- Select Simple or Summary helpers from the team's worklog configuration.
 
 ## Start Here
 
@@ -59,7 +61,7 @@ After upgrading to v1.1.0:
 
 ## Availability
 
-ONEScript v1.1.0 is available for Private / On-Premises deployments. SaaS support is coming soon.
+ONEScript v1.1.1 is available for Private / On-Premises deployments. SaaS support is coming soon.
 
 ONEScript is in early preview and intended for evaluation and testing.
 
