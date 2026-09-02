@@ -24,30 +24,24 @@ Download the latest ONEScript package from [Releases](https://github.com/ONES-co
 For the shortest path, use the release links:
 
 - [Latest release](https://github.com/ONES-com/onescript-workflow-automation/releases/latest)
-- ONEScript v1.1.1 on-premises package: [`ONEScript-1.1.1-on-prem.opk`](https://github.com/ONES-com/onescript-workflow-automation/releases/download/v1.1.1/ONEScript-1.1.1-on-prem.opk)
-- [ONEScript v1.1.1 release notes](https://github.com/ONES-com/onescript-workflow-automation/releases/tag/v1.1.1)
+- ONEScript v1.1.5 on-premises package: [`ONEScript-1.1.5-on-prem.opk`](https://github.com/ONES-com/onescript-workflow-automation/releases/download/v1.1.5/ONEScript-1.1.5-on-prem.opk)
+- [ONEScript v1.1.5 release notes](https://github.com/ONES-com/onescript-workflow-automation/releases/tag/v1.1.5)
 
 Install the package through Configuration Center > App management > Uploaded apps. GitHub may also show auto-generated source archives; to install ONEScript, download the `.opk` package.
 
-## What's New in v1.1.1
+## What's New in v1.1.5
 
-ONEScript v1.1.1 adds complete worklog support for synchronous workflow guards and advanced record automation.
+ONEScript v1.1.5 includes bug fixes and general reliability improvements.
 
-- Adds `issue.worklog` for taskPreAction checks against registered, estimated, and remaining hours
-- Adds fixed-precision estimate comparisons and platform estimated/remaining roll-ups
-- Shares one aggregate read across matching guards while unrelated guards add no request
-- Fails closed when required worklog data is unavailable instead of treating it as zero
-- Formally supports explicitly separated Simple and Summary worklog record helpers
-- Aligns Dry Run, autocomplete, Guide, AI Skill, and the user manual with the runtime contract
+Recent v1.1 releases also added status transitions, workspace reliability updates, scripted field improvements, Cursor-based issue search, OAuth Endpoint Caller updates, and complete worklog support. See the [Changelog](./changelog) for version-specific details.
 
-## Upgrade Notes
+## Install Notes
 
-After upgrading to v1.1.1:
+Before installing ONEScript v1.1.5:
 
-- Existing v1.1.0 scripts do not require migration.
-- Use `issue.worklog` only in `taskPreAction`.
-- Keep record writes in write-capable L1 triggers.
-- Select Simple or Summary helpers from the team's worklog configuration.
+- Confirm your ONES deployment is version 3.16.37 or later.
+- Download the `.opk` package from GitHub Releases.
+- Upload, install, and enable ONEScript from Configuration Center > App management > Uploaded apps.
 
 ## Start Here
 
@@ -61,7 +55,7 @@ After upgrading to v1.1.1:
 
 ## Availability
 
-ONEScript v1.1.1 is available for Private / On-Premises deployments. SaaS support is coming soon.
+ONEScript v1.1.5 is available for Private / On-Premises deployments. SaaS support is coming soon.
 
 ONEScript is in early preview and intended for evaluation and testing.
 
