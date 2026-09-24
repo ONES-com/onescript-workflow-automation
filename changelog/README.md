@@ -4,6 +4,7 @@ This folder tracks user-facing ONEScript release notes published through this re
 
 ## Releases
 
+- [v1.2.0](./v1.2.0.md)
 - [v1.1.5](./v1.1.5.md)
 - [v1.1.4](./v1.1.4.md)
 - [v1.1.3](./v1.1.3.md)
